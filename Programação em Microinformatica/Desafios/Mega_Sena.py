@@ -1,3 +1,13 @@
+'''Elabore um programa em Python que gere uma SURPRESINHA, ou seja, uma aposta para a 
+MEGASENA, com 6 números entre 1 e 60, sem repetição, armazenando em um vetor. Faça a 
+validação. 
+Após gerar a aposta, deverão ser informados pelo teclado os números do resultado da 
+MEGASENA, os quais serão armazenados em um vetor de 6 posições, com números de 1 a 60, sem 
+números repetidos. Faça a validação. 
+Faça a ordenação dos vetores e a comparação, confira o resultado e mostre se houve ou não acertos 
+para a aposta gerada. Informe ainda se houve Quadra (4 acertos), Quina (5 acertos) ou Sena (6 
+acertos), mostrando os números certos'''
+
 from random import randint
 
 L = []

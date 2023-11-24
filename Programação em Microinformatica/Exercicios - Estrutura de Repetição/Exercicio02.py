@@ -1,3 +1,12 @@
+'''Escreva um programa que gere um triângulo lateral de altura 2*n-1 e n largura. Por exemplo, a saída para n = 4 seria:  
+* 
+**
+***
+****
+*** 
+**
+*'''
+
 n = int(input('Informe a altura -> '))
 
 for i in range(1,n):
